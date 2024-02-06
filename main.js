@@ -3,11 +3,11 @@ let arr2 =["D","E","F","Y"]
 let allArray=[]
 
 let indexOfX=arr1.indexOf("X")
-let indexOfLastIndex=arr1.length+1
+let indexOfLastIndex=arr1.length++
 
 let indexOfF =arr2.indexOf("F")
 let indexOfY=arr2.indexOf("Y")
-let lastIndexInArr2 = arr2.length+1
+let lastIndexInArr2 = arr2.length++
 
 let newArr1= arr1.slice(indexOfX,indexOfLastIndex).toString()
 let newArr2= arr2.slice(indexOfF,indexOfY).toString()
